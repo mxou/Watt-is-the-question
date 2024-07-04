@@ -1,0 +1,164 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    background-color: #F2F2F2;
+    color:darkcyan;
+}
+
+header > div {
+    display: flex;
+    flex-direction: column;
+}
+
+header > div > img {
+max-width: 85%;
+height: auto;
+}
+
+header > div > h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+header > div > h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
+    font-size: 50px;
+}
+
+i {
+    color: darkcyan;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    max-width: 50px;
+    height: auto;   
+}
+
+header > a {
+    display: flex;
+    width: 50px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fil {
+    max-width: 20%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+article > h2 {
+    color: darkcyan;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+li {
+    margin-left: 50px;
+}
+
+li:last-child {
+    margin-bottom: 10px;
+}
+
+article > div {
+    display: flex;
+}
+
+article > div > img:nth-child(1) {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+article > div > img:nth-child(2) {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+article > nav {
+    display: flex;
+}
+
+article > nav > a {   
+    flex-direction: column;
+    margin: auto;
+}
+
+.important {
+    color:red;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 400px;
+    height: auto;
+}
+
+footer > nav {
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+footer > nav > a {
+    flex-direction: row;
+    margin: auto;
+    text-decoration: none;
+    color: gray;
+}
